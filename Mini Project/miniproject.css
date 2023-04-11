@@ -1,0 +1,257 @@
+/* Body */
+body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    position: relative;
+    margin: 0px;
+    height: 100%;
+}
+
+/* Text */
+#text {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 800px;
+    margin: 40px 40px;
+}
+
+#text div p,
+#text li {
+    padding: 10px 0px;
+
+}
+
+#text ul {
+    padding: 20px 30px 25px 40px;
+}
+
+#text h1 {
+    text-align: center;
+}
+
+/* Header */
+#header {
+    font-size: 70px;
+    color: darkcyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 20px 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkcyan;
+}
+
+.navbar li a {
+    padding: 4px 5px;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.search {
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+
+}
+
+.navbar input {
+    border-radius: 30px;
+    background: url(img/icons8-search-30.png) left no-repeat;
+    height: 30px;
+    padding-left: 35px;
+}
+
+/* Dropdown */
+.navbar li ul {
+    position: absolute;
+    display: none;
+    top: 40px;
+    left: 225px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.navbar li:hover ul {
+    display: block
+}
+
+.navbar li ul li {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.navbar li ul li a {
+    padding: 5px 0px 5px 5px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.navbar li ul li a:hover {
+    padding: 5px 0px 5px 5px;
+}
+
+
+
+/* Socials */
+.fa {
+    float: right;
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background-color: darkcyan;
+    color: white;
+    margin-right: 20px;
+}
+
+/* Instagram */
+.fa-instagram {
+    background-color: darkcyan;
+    color: white;
+    margin-right: 10px;
+}
+
+/* ImageText */
+.imagetext {
+
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 60px;
+    right: 50px;
+}
+
+
+
+/* Footer */
+
+.footer-container {
+    background-color: darkcyan;
+    padding-bottom: 0px;
+
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    flex-wrap: wrap;
+    margin: auto;
+    max-height: 500px;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.footer-heading h2 {
+    margin-bottom: 5px;
+    font-size: 25px;
+
+}
+
+.footer-heading h3 {
+    margin-bottom: 2px;
+    font-size: 15px;
+
+}
+
+/* CONTACT */
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: darkcyan;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    padding: 30px;
+    width: 50%;
+    margin: 50px;
+    padding-top: 0px;
+}
+
+
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid darkcyan;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 17px;
+}
